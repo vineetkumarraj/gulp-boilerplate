@@ -7,7 +7,12 @@ var uglifycss = require('gulp-uglifycss');
 sass.compiler = require('node-sass');
 
 function javascript() {
-    return src(['node_modules/bootstrap/dist/js/bootstrap.js', 'assets/js/*.js'])
+    return src([
+          'node_modules/jquery/dist/jquery.js',
+          'node_modules/popper.js/dist/umd/popper.min.js',
+          'node_modules/bootstrap/dist/js/bootstrap.js',
+          'assets/js/*.js'
+        ])
         .pipe(concat('bundle.min.js'))
         .pipe(uglify())
         .pipe(dest('build/js/'));

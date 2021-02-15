@@ -1,26 +1,27 @@
 {
-  "name": "appvario",
+  "name": "web",
   "version": "1.0.0",
-  "description": "Official web for appvario",
+  "description": "Official web for web",
   "main": "index.html",
   "dependencies": {
     "bootstrap": "^4.6.0",
-    "jquery": "^3.5.1"
+    "jquery": "^3.5.1",
+    "popper.js": "^1.16.1"
   },
   "devDependencies": {
-    "gulp-concat": "^2.6.1",
-    "gulp-sass": "^4.1.0",
-    "gulp-uglifycss": "^1.1.0",
-    "node-sass": "^5.0.0",
     "gulp": "^4.0.2",
+    "gulp-concat": "^2.6.1",
     "gulp-rename": "^2.0.0",
-    "gulp-uglify": "^3.0.2"
+    "gulp-sass": "^4.1.0",
+    "gulp-uglify": "^3.0.2",
+    "gulp-uglifycss": "^1.1.0",
+    "node-sass": "^5.0.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "appvario"
+    "web"
   ],
   "author": "Vineet Kumar",
   "license": "ISC"
