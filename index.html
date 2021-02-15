@@ -2,22 +2,109 @@
 <html>
     <head>
         <title>Wonder full title</title>
+        <link rel="icon" href="./build/images/logo.ico" type="image/gif" sizes="16x16">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel='stylesheet' id='bundle-css' href='build/css/bundle.min.css' type='text/css' media='all' />
     </head>
     <body>
-        <header>
-
-        </header>
-        <section class="regular-section banner">
+        <div class="navigation-wrap start-header start-style">
             <div class="container">
                 <div class="row">
+                    <div class="col-12">
+                        <nav class="navbar navbar-expand-md">
+                            <a class="navbar-brand" href="#" target="_blank"><img src="./build/images/logo.png" alt="Appvario" /> </a>
+                            <button class="navbar-toggler" type="button" data-toggle="collapse"
+                                data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                                aria-expanded="false" aria-label="Toggle navigation">
+                                <span class="navbar-toggler-icon"></span>
+                            </button>
+                            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                                <ul class="navbar-nav ml-auto py-4 py-md-0">
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4 active">
+                                        <a class="nav-link" href="#">Home</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">Technologies</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">Products</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link dropdown-toggle" data-toggle="dropdown" href="#" role="button"
+                                            aria-haspopup="true" aria-expanded="false">Services</a>
+                                        <div class="dropdown-menu">
+                                            <a class="dropdown-item" href="#">Action</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                            <a class="dropdown-item" href="#">Something else here</a>
+                                            <a class="dropdown-item" href="#">Another action</a>
+                                        </div>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">Contact</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">FAQ</a>
+                                    </li>
+                                    <li class="nav-item pl-4 pl-md-0 ml-0 ml-md-4">
+                                        <a class="nav-link" href="#">Helpdesk</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </nav>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <section class="banner-section banner bg-gredient">
+            <div class="container">
+                <div class="row banner-content">
                     <div class="col-xs-12 col-sm-12 col-md-6">
-                        <h2>Hey, There we are powered by Beri Udyog Pvt Ltd.</h2>
+                        <h1 class="banner-title">We deliver success built on strategy</h1>
+                        <p>We at Appvario believe that winning apps are built with strategy that exaggerate the necessity of the people to capture
+                        the audiences. We came to know that free apps only win when there is absolute necessity for that strategy to play an
+                        important role. We help build such strategies to win over the other competitive apps.</p>
+                    </div>
+                    <div class="col-xs-12 col-sm-12 col-md-6">
+                        <div class="img-fluid">
+                            <!-- <img src="images/hero/hero-image.png" alt="web development" class="img-fluid" /> -->
+                            <lottie-player src="https://assets7.lottiefiles.com/packages/lf20_atgjqorh.json" background="transparent" speed="1"
+                                class="lottie-graphics" loop autoplay></lottie-player>
+                        </div>
                     </div>
                 </div>
             </div>
         </section>
+            <!--Start About-->
+            <section class="regular-section">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <div class="image-block">
+                                <!-- <img src="images/about/about-image.png" alt="about" class="img-fluid no-shadow" /> -->
+                                <lottie-player src="https://assets5.lottiefiles.com/packages/lf20_qdiq7qa5.json"
+                                    background="transparent" speed="1" class="lottie-2" loop autoplay></lottie-player>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="common-heading text-l">
+                                <span>We Are Creative Agency</span>
+                                <h2>About Agency</h2>
+                                <p>We entrenched in the year 2019 with the intention of providing the best solution for the start
+                                    ups who are having the
+                                    fascinating ideas that will make a revolutionary breakthrough in the digital world. We built
+                                    custom Mobile and Web
+                                    Applications as per the clients requirements. We help the business to compete with the others
+                                    with strategizing the
+                                    ideas to bring up as an emerging leader in the stream.
+                                </p>
+                                <p class="quote">We evolve with technology. We evolve with people’s ideas.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <!--End About-->
         <script src="build/js/bundle.min.js"></script>
+        <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
     </body>
 </html>

@@ -1,14 +1,10 @@
-$theme-colors: (
-  "primary": #fff,
-  "danger": #ff4136
-);
-
-$colors: (
-  "gray": #ccc,
-) !default;
-
-// Your variable overrides
-$body-bg: #000;
-$body-color: #999 !default;
-
+$primary: #184e72 !default;
+$secondary: #58a422 !default;
 $regular-padding: 60px 0px;
+
+$body-color: #6a6a8e;
+
+$font-size-base: 20px;
+$font-family-sans-serif: "Open Sans", sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;

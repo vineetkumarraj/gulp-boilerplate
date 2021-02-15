@@ -14,7 +14,7 @@ function javascript() {
           'assets/js/*.js'
         ])
         .pipe(concat('bundle.min.js'))
-        .pipe(uglify())
+        // .pipe(uglify())
         .pipe(dest('build/js/'));
 }
 

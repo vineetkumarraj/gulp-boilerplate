@@ -1,4 +1,14 @@
-.banner {
-  background-color: $primary;
-  color: scale-color($primary, $lightness: +70%);
+.banner-section {
+  min-height: 100vh;
+  .banner-content {
+    padding-top: 20vh;
+  }
+  .banner-title {
+    margin: 20px 0px;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    color: $primary;
+    line-height: 70px;
+    font-size: 60px;
+  }
 }
