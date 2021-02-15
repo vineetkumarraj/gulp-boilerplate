@@ -1,1 +1,20 @@
-@import "../../node_modules/bootstrap/scss/bootstrap.scss";
+// Import Custom variables
+@import "includes/variables";
+
+// Bootstrap requires these files
+@import "../../node_modules/bootstrap/scss/functions";
+@import "../../node_modules/bootstrap/scss/variables";
+@import "../../node_modules/bootstrap/scss/mixins";
+
+// Import bootstrap components
+@import "../../node_modules/bootstrap/scss/reboot";
+@import "../../node_modules/bootstrap/scss/grid";
+
+// Import Custom mixins
+@import "includes/mixins";
+
+// Import Blocks
+@import "blocks/regular";
+
+@import "blocks/banner";
+

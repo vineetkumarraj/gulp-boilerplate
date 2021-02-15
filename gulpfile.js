@@ -21,12 +21,12 @@ function javascript() {
 function scss() {
     return src('assets/scss/style.scss')
         .pipe(sass.sync().on('error', sass.logError))
-        .pipe(uglifycss())
+        // .pipe(uglifycss())
         .pipe(rename('bundle.min.css'))
         .pipe(dest('build/css/'));
 }
 
 exports.default = function() {
-  watch('assets/scss/*.scss', scss);
+  watch(['assets/scss/style.scss', 'assets/scss/*/*.scss'], scss);
   watch('assets/js/*.js', javascript);
 };
