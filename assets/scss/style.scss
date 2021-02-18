@@ -14,10 +14,7 @@
 @import "blocks/header";
 @import "blocks/regular";
 @import "blocks/banner";
-
-body {
-  font-family: "Open Sans", sans-serif;
-  font-size: 20px;
-  font-weight: 400;
-  line-height: 1.5;
-}
+@import "blocks/services";
+@import "blocks/approach";
+@import "blocks/clients";
+@import "blocks/reboot";

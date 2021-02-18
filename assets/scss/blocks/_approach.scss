@@ -1,0 +1,15 @@
+.approach-section {
+  .approach-icon {
+    width: 15%;
+    float: left;
+    color: $primary;
+    padding: 10px;
+    border-radius: 10px;
+    background-color: $gray-300;
+  }
+
+  .approach-content {
+    width: 80%;
+    float: right;
+  }
+}

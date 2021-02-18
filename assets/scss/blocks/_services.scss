@@ -1,0 +1,27 @@
+.services-section {
+  position: relative;
+  .services-block {
+    background-color: #fff;
+    text-align: center;
+    border: 1px solid $gray-200;
+    padding: 10px;
+    min-height: 400px;
+  }
+  .services-icon {
+    padding: 10px 80px;
+    height: auto;
+  }
+}
+.services-section:before {
+  content: "";
+  background: url(../images/shape/dot-shape.png) #d7f0fd;
+  position: absolute;
+  height: 400px;
+  right: 0;
+  left: 0;
+  top: 0;
+  width: 100%;
+  background-position: center top;
+  background-size: contain;
+  background-repeat: repeat;
+}
