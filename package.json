@@ -8,6 +8,14 @@
     "jquery": "^3.5.1",
     "popper.js": "^1.16.1"
   },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "web"
+  ],
+  "author": "Vineet Kumar",
+  "license": "ISC",
   "devDependencies": {
     "gulp": "^4.0.2",
     "gulp-concat": "^2.6.1",
@@ -16,13 +24,5 @@
     "gulp-uglify": "^3.0.2",
     "gulp-uglifycss": "^1.1.0",
     "node-sass": "^5.0.0"
-  },
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [
-    "web"
-  ],
-  "author": "Vineet Kumar",
-  "license": "ISC"
+  }
 }

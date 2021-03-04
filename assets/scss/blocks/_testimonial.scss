@@ -1,0 +1,12 @@
+.user-image img {
+    width: 60px;
+    border-radius: 10%;
+    margin-right: 10px;
+}
+.carousel-indicators {
+    position: relative;
+    top: 10px;
+}
+.carousel-indicators li{
+    background-color: $primary;
+}

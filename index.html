@@ -422,59 +422,75 @@
                         </div>
                     </div>
                     <div class="col-lg-7">
-                        <div class="owl-carousel testimonial-card-a pl25">
-                            <div class="testimonial-card">
-                                <div class="t-text">
-                                    <p>Amazing team of tech enthusiasts comes up with vast solutions to bring the complexity to
-                                        simple solving and
-                                        understandable.
-                                    </p>
-                                </div>
-                                <div class="client-thumbs mt30">
-                                    <div class="media v-center">
-                                        <div class="user-image bdr-radius"><img src="build/images/user-thumb/nagesh.png" alt="girl"
-                                                class="img-fluid" /></div>
-                                        <div class="media-body user-info v-center">
-                                            <h5>Dharaneesh As</h5>
-                                            <p>Founder and CEO, <small>Ganga Technologies</small></p>
+                        <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+                            <div class="carousel-inner">
+                              <div class="carousel-item active">
+                                <div class="testimonial-card">
+                                    <div class="t-text">
+                                        <p>Amazing team of tech enthusiasts comes up with vast solutions to bring the complexity to
+                                            simple solving and
+                                            understandable.
+                                        </p>
+                                    </div>
+                                    <div class="client-thumbs mt30">
+                                        <div class="media v-center">
+                                            <div class="user-image bdr-radius">
+                                                <img src="https://www.gstatic.com/webp/gallery/4.sm.jpg" alt="girl"class="img-fluid" />
+                                            </div>
+                                            <div class="media-body user-info v-center">
+                                                <h5>Dharaneesh As</h5>
+                                                <p>Founder and CEO, <small>Ganga Technologies</small></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="testimonial-card">
-                                <div class="t-text">
-                                    <p>Good team and nice responsible everyone taking part in building the project. Very much
-                                        happy working with you people.
-                                    </p>
-                                </div>
-                                <div class="client-thumbs mt30">
-                                    <div class="media v-center">
-                                        <div class="user-image bdr-radius"><img src="build/images/user-thumb/ravikanth.png" alt="girl"
-                                                class="img-fluid" /></div>
-                                        <div class="media-body user-info">
-                                            <h5>Ravikanth S</h5>
-                                            <p>Director, <small>Dharthi Enterprises</small></p>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <div class="t-text">
+                                        <p>Good team and nice responsible everyone taking part in building the project. Very much
+                                            happy working with you people.
+                                        </p>
+                                    </div>
+                                    <div class="client-thumbs mt30">
+                                        <div class="media v-center">
+                                            <div class="user-image bdr-radius">
+                                                <img src="https://www.gstatic.com/webp/gallery/4.sm.jpg" alt="girl" class="img-fluid" />
+                                            </div>
+                                            <div class="media-body user-info">
+                                                <h5>Ravikanth S</h5>
+                                                <p>Director, <small>Dharthi Enterprises</small></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
-                            </div>
-                            <div class="testimonial-card">
-                                <div class="t-text">
-                                    <p>Very helpful team and support, guiding with good strategy and modern age marketing
-                                        tactics.
-                                    </p>
-                                </div>
-                                <div class="client-thumbs mt30">
-                                    <div class="media v-center">
-                                        <div class="user-image bdr-radius"><img src="build/images/user-thumb/dharneesh.png" alt="girl"
-                                                class="img-fluid" /></div>
-                                        <div class="media-body user-info">
-                                            <h5>Nagesh CV</h5>
-                                            <p>Managing Director, <small>CVN Technologies Pvt Ltd</small></p>
+                              </div>
+                              <div class="carousel-item">
+                                <div class="testimonial-card">
+                                    <div class="t-text">
+                                        <p>Very helpful team and support, guiding with good strategy and modern age marketing
+                                            tactics.
+                                        </p>
+                                    </div>
+                                    <div class="client-thumbs mt30">
+                                        <div class="media v-center">
+                                            <div class="user-image bdr-radius">
+                                                <img src="https://www.gstatic.com/webp/gallery/4.sm.jpg" alt="girl" class="img-fluid" />
+                                            </div>
+                                            <div class="media-body user-info">
+                                                <h5>Nagesh CV</h5>
+                                                <p>Managing Director, <small>CVN Technologies Pvt Ltd</small></p>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
+                              </div>
                             </div>
+                            <ol class="carousel-indicators">
+                                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+                                <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+                              </ol>
                         </div>
                     </div>
                 </div>
@@ -492,26 +508,32 @@
                         </div>
                         <div class="form-block">
                             <form action="#" method="post" name="feedback-form">
-                                <div class="fieldsets row">
-                                    <div class="col-md-6"><input type="text" placeholder="Full Name" name="name"></div>
-                                    <div class="col-md-6"><input type="email" placeholder="Email Address" name="email">
+                                <div class="form group row">
+                                    <div class="col-md-6">
+                                        <input class="form-control my-1" type="text" placeholder="Full Name" name="name">
+                                    </div>
+                                    <div class="col-md-6">
+                                        <input class="form-control my-1" type="email" placeholder="Email Address" name="email">
                                     </div>
                                 </div>
-                                <div class="fieldsets row">
-                                    <div class="col-md-6"><input type="number" placeholder="Contact Number" name="phone">
+                                <div class="form group row">
+                                    <div class="col-md-6">
+                                        <input class="form-control my-1" type="number" placeholder="Contact Number" name="phone">
                                     </div>
-                                    <div class="col-md-6"><input type="text" placeholder="Subject" name="subject"></div>
+                                    <div class="col-md-6">
+                                        <input class="form-control my-1" type="text" placeholder="Subject" name="subject">
+                                    </div>
                                 </div>
-                                <div class="fieldsets"><textarea placeholder="Message" name="message"></textarea></div>
+                                <div class="form group">
+                                    <textarea placeholder="Message" class="form-control my-1" name="message" style="resize: none;"></textarea>
+                                </div>
                                 <div class="custom-control custom-checkbox">
-                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1"
-                                        checked="checked">
-                                    <label class="custom-control-label" for="customCheck">I agree to the <a
-                                            href="javascript:void(0)">Terms &amp; Conditions</a> of Business Name.</label>
+                                    <input type="checkbox" class="custom-control-input" id="customCheck" name="example1" checked="checked">
+                                    <label class="custom-control-label" for="customCheck">I agree to the <a href="javascript:void(0)">Terms &amp; Conditions</a> of Business Name.</label>
                                 </div>
-                                <div class="fieldsets mt20"> <button type="submit" name="submit"
-                                        class="lnk btn-main bg-btn">Submit <i class="fas fa-chevron-right fa-icon"></i><span
-                                            class="circle"></span></button> </div>
+                                <div class="form-group"> 
+                                    <button type="submit" name="submit" class="btn btn-primary"> Submit <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button> 
+                                </div>
                                 <p class="trm"><i class="fas fa-lock"></i>We hate spam, and we respect your privacy.</p>
                             </form>
                         </div>
@@ -576,38 +598,36 @@
                         <div class="col-lg-6 v-center">
                             <div class="email-subs-form">
                                 <form>
-                                    <input type="email" placeholder="Email Your Address" name="emails">
-                                    <button type="submit" name="submit" class="lnk btn-main bg-btn">Subscribe <i
-                                            class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
+                                    <input type="email" class="form-control" placeholder="Email Your Address" name="emails">
+                                    <button type="submit" name="submit" class="btn btn-primary my-2 ">Subscribe <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></button>
                                 </form>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="footer-row2">
+            <div class="footer regular-section">
                 <div class="container">
                     <div class="row justify-content-between">
                         <div class="col-lg-3 col-sm-6  ftr-brand-pp">
                             <a class="navbar-brand mt30 mb25" href="#"> <img src="build/images/logo.png" alt="appvario" /></a>
                             <p>We pursue recent leading technology to deliver beautiful experiences to the peoples. We build the
-                                people's idea with current society prerequisites.</p>
-                            <a href="#" class="btn-main bg-btn3 lnk mt20">Learn More <i
-                                    class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                                people's idea with current society prerequisites.<br />
+                            <a href="#" class="btn-main bg-btn3 lnk mt20">Learn More <i class="fas fa-chevron-right fa-icon"></i><span class="circle"></span></a>
+                            </p>
                         </div>
                         <div class="col-lg-3 col-sm-6">
                             <h3>Contact Us</h3>
-                            <ul class="footer-address-list ftr-details">
-                                <li>
+                            <ul class="nav">
+                                <li class="nav-link">
                                     <span><i class="fas fa-envelope"></i></span>
-                                    <p>Email <span> <a href="mailto:info.appvario@gmail.com">info.appvario@gmail.com</a></span>
-                                    </p>
+                                    Email <span> <a href="mailto:info.appvario@gmail.com">info.appvario@gmail.com</a></span>
                                 </li>
-                                <li>
+                                <li class="nav-link">
                                     <span><i class="fas fa-phone-alt"></i></span>
-                                    <p>Phone <span> <a href="tel:+91-9731745358">+91 9731745358</a></span></p>
+                                    Phone <span> <a href="tel:+91-9731745358">+91 9731745358</a></span>
                                 </li>
-                                <li>
+                                <li class="nav-link">
                                     <span><i class="fas fa-map-marker-alt"></i></span>
                                     <p>Address <span> #203, 7th cross, MEI Layout, Bangalore 560073</span></p>
                                 </li>
@@ -615,34 +635,36 @@
                         </div>
                         <div class="col-lg-2 col-sm-6">
                             <h3>helpful Links</h3>
-                            <ul class="footer-address-list link-hover">
-                                <li><a href="#">Contact</a></li>
-                                <li><a href="#">About</a></li>
-                                <li><a href="javascript:void(0)">Customer's FAQ</a></li>
-                                <li><a href="javascript:void(0)">Privacy Policy</a></li>
-                                <li><a href="javascript:void(0)">Terms and Conditions</a></li>
+                            <ul class="nav">
+                                <li class="nav-item"><a class="nav-link footer-link" href="javascript:void(0)">Contact</a></li>
+                                <li class="nav-item"><a class="nav-link footer-link" href="javascript:void(0)">About</a></li>
+                                <li class="nav-item"><a class="nav-link footer-link" href="javascript:void(0)">Customer's FAQ</a></li>
+                                <li class="nav-item"><a class="nav-link footer-link" href="javascript:void(0)">Privacy Policy</a></li>
+                                <li class="nav-item"><a class="nav-link footer-link" href="javascript:void(0)">Terms &amp; Conditions</a></li>
                             </ul>
                         </div>
                         <div class="col-lg-4 col-sm-6 footer-blog-">
                             <h3>Latest Blogs</h3>
-                            <div class="single-blog-">
-                                <div class="post-thumb"><a href="#"><img width="60" src="build/images/blog/blog-small.jpg" alt="blog"></a>
+                            <div class="row">
+                                <div class="col-3 image-thumb">
+                                    <img src="https://www.gstatic.com/webp/gallery/4.sm.jpg" alt="blog"></a>
                                 </div>
-                                <div class="content">
-                                    <p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>April 15,
-                                            2020</span></p>
-                                    <h4 class="title"><a href="#">We Provide you Best &amp; Creative
-                                            Consulting Service</a></h4>
+                                <div class="col-9">
+                                    <div class="content">
+                                        <small class="text-small text-muted"><i class="far fa-clock"></i>April 15, 2020</small>
+                                        <p class="title">We Provide you Best &amp; Creative Consulting Service</p>
+                                    </div>
                                 </div>
                             </div>
-                            <div class="single-blog-">
-                                <div class="post-thumb"><a href="#"><img width="60" src="build/images/blog/blog-small.jpg" alt="blog"></a>
+                            <div class="row">
+                                <div class="col-3 image-thumb">
+                                    <img src="https://www.gstatic.com/webp/gallery/4.sm.jpg" alt="blog"></a>
                                 </div>
-                                <div class="content">
-                                    <p class="post-meta"><span class="post-date"><i class="far fa-clock"></i>April 15,
-                                            2020</span></p>
-                                    <h4 class="title"><a href="#">We Provide you Best &amp; Creative
-                                            Consulting Service</a></h4>
+                                <div class="col-9">
+                                    <div class="content">
+                                        <small class="text-small text-muted"><i class="far fa-clock"></i>April 15, 2020</small>
+                                        <p class="title">We Provide you Best &amp; Creative Consulting Service</p>
+                                    </div>
                                 </div>
                             </div>
                         </div>

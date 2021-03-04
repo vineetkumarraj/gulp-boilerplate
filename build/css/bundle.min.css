@@ -7436,3 +7436,24 @@ h4 {
   color: #58a422;
   font-size: 1.2rem;
   font-weight: 300; }
+
+.footer .nav-item {
+  display: block;
+  width: 100%; }
+
+.footer .image-thumb img {
+  border-radius: 4px;
+  width: 100%;
+  min-height: 80px; }
+
+.user-image img {
+  width: 60px;
+  border-radius: 10%;
+  margin-right: 10px; }
+
+.carousel-indicators {
+  position: relative;
+  top: 10px; }
+
+.carousel-indicators li {
+  background-color: #184e72; }
